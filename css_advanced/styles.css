@@ -9,7 +9,7 @@ header {
   display: flex;
   flex-direction: row;
   flex: auto;
-  background-image: url("./images/banner.png");
+  background-image: url("./image/happy\ smile.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 2% 5% 2% 5%;
@@ -32,7 +32,7 @@ header {
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
-  color: whitesmoke;
+  color: white;
   padding-right: 53px;
   text-transform: uppercase;
   text-decoration: none;
@@ -284,6 +284,7 @@ main {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: #ff00ff;
 }
 
 .videos__inner .ratings > div {
@@ -624,4 +625,17 @@ footer {
     padding: 0.5rem;
     margin: 1rem;
   }
+}
+.f{
+  width: 30px;
+  height: 30px;
+
+}
+.logo{
+  width: 50px;
+  height: 50px;
+
+}
+#m{
+  color: white;
 }
